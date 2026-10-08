@@ -1,0 +1,1641 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_480x272_gradient_dark.png"
+          },
+          {
+            "Type": "Circle",
+            "Name": "circArea1",
+            "Width": 480,
+            "Height": 272,
+            "CenterX": 240.0,
+            "CenterY": 272.0,
+            "Radius": 220.0,
+            "StartAngle": 84.0,
+            "EndAngle": -84.0,
+            "CapPrecision": "Triangle"
+          },
+          {
+            "Type": "Circle",
+            "Name": "markCircle1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 240.0,
+            "CenterY": 272.0,
+            "Radius": 220.0,
+            "LineWidth": 0.5,
+            "StartAngle": -84.0,
+            "EndAngle": 84.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "markCircle2",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 240.0,
+            "CenterY": 272.0,
+            "Radius": 110.0,
+            "LineWidth": 0.5,
+            "StartAngle": -84.0,
+            "EndAngle": 84.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "markCircle3",
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 240.0,
+            "CenterY": 272.0,
+            "Radius": 200.0,
+            "LineWidth": 0.5,
+            "StartAngle": -84.0,
+            "EndAngle": 84.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "markCircle4",
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 240.0,
+            "CenterY": 272.0,
+            "Radius": 150.0,
+            "LineWidth": 0.5,
+            "StartAngle": -84.0,
+            "EndAngle": 84.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "X": 448,
+            "Y": 230,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "EndX": 10.0,
+            "EndY": 50.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 340,
+            "Y": 245,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "EndX": 10.0,
+            "EndY": 50.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "X": 340,
+            "Y": 235,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "EndX": 10.0,
+            "EndY": 50.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "descriptionTextArea2",
+            "X": 444,
+            "Y": 250,
+            "Width": 33,
+            "Height": 10,
+            "TextId": "__SingleUse_XDAF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_1CNL",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "descriptionTextArea1",
+            "X": 354,
+            "Y": 260,
+            "Width": 33,
+            "Height": 10,
+            "TextId": "__SingleUse_560V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_HRW5",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line3",
+            "X": 230,
+            "Y": 50,
+            "Width": 20,
+            "Height": 220,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "EndX": 10.0,
+            "EndY": 220.0,
+            "LineWidth": 0.5,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line3_2",
+            "X": 85,
+            "Y": 115,
+            "Width": 155,
+            "Height": 155,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 155.0,
+            "StartY": 155.0,
+            "LineWidth": 0.5,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line3_1",
+            "X": 240,
+            "Y": 115,
+            "Width": 155,
+            "Height": 155,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 155.0,
+            "EndY": 155.0,
+            "LineWidth": 0.5,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "distanceTextArea1",
+            "Width": 260,
+            "Height": 25,
+            "TextId": "__SingleUse_72CJ",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_KRXL",
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "stepsTextArea1",
+            "Y": 25,
+            "Width": 260,
+            "Height": 25,
+            "TextId": "__SingleUse_EFKP",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_Q3HH",
+              "UseBuffer": true,
+              "BufferSize": 16
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line4",
+            "X": 31,
+            "Y": 74,
+            "Width": 420,
+            "Height": 50,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartY": 25.0,
+            "EndX": 420.0,
+            "EndY": 25.0,
+            "LineWidth": 1.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Circle",
+            "Name": "object1",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object2",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object3",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object4",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object5",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object6",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object7",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object8",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object9",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object10",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object11",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object12",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object13",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object14",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object15",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object16",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object17",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object18",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object19",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object20",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object21",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object22",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object23",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object24",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object25",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object26",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object27",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object28",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object29",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object30",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object31",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object32",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object33",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object34",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object35",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object36",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object37",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object38",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object39",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object40",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object41",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object42",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object43",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object44",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object1_44",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object1_45",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object1_46",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object1_47",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "object1_48",
+            "X": 20,
+            "Y": 89,
+            "Width": 20,
+            "Height": 20,
+            "Visible": false,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 10.0,
+            "CenterY": 10.0,
+            "Radius": 10.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Draggable": true,
+            "Clickable": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "zoomButton1",
+            "X": 303,
+            "Y": 5,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "zoomButton3",
+            "X": 420,
+            "Y": 5,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "zoomButton4",
+            "X": 420,
+            "Y": 65,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "zoomButton2",
+            "X": 362,
+            "Y": 5,
+            "Width": 50,
+            "Height": 50,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "zoomTextArea1",
+            "X": 316,
+            "Y": 18,
+            "Width": 25,
+            "Height": 25,
+            "TextId": "__SingleUse_WLMR",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "zoomTextArea2",
+            "X": 375,
+            "Y": 18,
+            "Width": 25,
+            "Height": 25,
+            "TextId": "__SingleUse_U4TX",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "zoomTextArea3",
+            "X": 432,
+            "Y": 18,
+            "Width": 25,
+            "Height": 25,
+            "TextId": "__SingleUse_22EP",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "zoomTextArea4",
+            "X": 433,
+            "Y": 78,
+            "Width": 25,
+            "Height": 25,
+            "TextId": "__SingleUse_ZGMQ",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "Line",
+            "Name": "line5",
+            "X": 20,
+            "Y": 50,
+            "Width": 440,
+            "Height": 220,
+            "Color": {
+              "Red": 171,
+              "Green": 171,
+              "Blue": 79
+            },
+            "EndX": 220.0,
+            "EndY": 220.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Square"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "zoomButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "zoom1X"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "zoomButton2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "zoom2X"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "zoomButton3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "zoom4X"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "zoomButton4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "zoom8X"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "distance_measurment_2",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.23.0",
+  "CreatedBy": "4.23.0"
+}

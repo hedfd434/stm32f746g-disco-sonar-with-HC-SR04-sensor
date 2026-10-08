@@ -1,0 +1,8 @@
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:843:6:StartDefaultTask	8	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:861:6:StartTask04	8	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:1036:6:StartTask05	16	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:1078:6:StartTask06	8	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:311:6:SystemClock_Config	88	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:186:5:main	128	static,ignoring_inline_asm
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:1136:6:HAL_TIM_PeriodElapsedCallback	0	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/Core/Src/main.c:1154:6:Error_Handler	0	static

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_ZGMQ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">x4</Translation>
+      </Text>
+      <Text Id="__SingleUse_22EP" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">x4</Translation>
+      </Text>
+      <Text Id="__SingleUse_U4TX" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">x2</Translation>
+      </Text>
+      <Text Id="__SingleUse_WLMR" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">x1</Translation>
+      </Text>
+      <Text Id="__SingleUse_HRW5" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">xxx</Translation>
+      </Text>
+      <Text Id="__SingleUse_1CNL" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">xxx</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q3HH" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">no data</Translation>
+      </Text>
+      <Text Id="__SingleUse_EFKP" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">current step: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_560V" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;cm</Translation>
+      </Text>
+      <Text Id="__SingleUse_XDAF" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">&lt;value&gt;cm</Translation>
+      </Text>
+      <Text Id="__SingleUse_KRXL" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">no data</Translation>
+      </Text>
+      <Text Id="__SingleUse_72CJ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">current value: &lt;value&gt; cm</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x00-0xFF" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x00-0xFF" />
+  </Typographies>
+</TextDatabase>

@@ -1,0 +1,15 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:22:6:virtual void Screen1View::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:Screen1View::~Screen1View()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:virtual Screen1View::~Screen1View()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:6:1:Screen1View::Screen1View()	16	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:1513:6:virtual void Screen1View::zoom1X()	16	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:1528:6:virtual void Screen1View::zoom2X()	24	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:1543:6:virtual void Screen1View::zoom4X()	24	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:1559:6:virtual void Screen1View::zoom8X()	24	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:17:6:virtual void Screen1View::setupScreen()	0	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:27:6:virtual void Screen1View::setVal1(int)	64	static
+C:/Users/kubaw/Desktop/stm_32_sonar_git/distance_measurment_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:1411:6:virtual void Screen1View::setStep(int)	40	static
